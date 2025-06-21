@@ -82,7 +82,7 @@
       "    <meta charset=\"UTF-8\">",
       "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
       "    <meta name=\"description\" content=\"Hello World! Welcome to BoilerKit\">",
-      "    <title>BoilerKit>",
+      "    <title>BoilerKit</title>",
       "</head>",
       "<body>",
       "    <h1>Hello World! Welcome to BoilerKit</h1>",
@@ -94,7 +94,7 @@
   "CSS Boilerplate": {
     "prefix": "cssboiler",
     "body": [
-      "/* Hello World! Welcome to BoilerKit */",
+      "/* Reset and Base Styles - BoilerKit */",
       "* {",
       "    margin: 0;",
       "    padding: 0;",
@@ -108,9 +108,7 @@
       "    background-color: #fff;",
       "}",
       "",
-      "h1::before {",
-      "    content: \"Hello World! Welcome to BoilerKit\";",
-      "}"
+      "/* Hello World! Welcome to BoilerKit */"
     ],
     "description": "BoilerKit: CSS Reset Boilerplate"
   },
@@ -143,8 +141,7 @@
       "    echo \"Hello World! Welcome to BoilerKit\\n\";",
       "}",
       "",
-      "main();",
-      "?>"
+      "main();"
     ],
     "description": "BoilerKit: PHP Boilerplate"
   },
@@ -154,7 +151,7 @@
       "#!/usr/bin/env ruby",
       "",
       "def main",
-      "  puts \"Hello World! Welcome to BoilerKit\"",
+      "    puts \"Hello World! Welcome to BoilerKit\"",
       "end",
       "",
       "main if __FILE__ == $0"
@@ -205,7 +202,7 @@
     "prefix": "dartboiler",
     "body": [
       "void main() {",
-      "  print('Hello World! Welcome to BoilerKit');",
+      "    print('Hello World! Welcome to BoilerKit');",
       "}"
     ],
     "description": "BoilerKit: Dart Boilerplate"
@@ -214,7 +211,7 @@
     "prefix": "scalaboiler",
     "body": [
       "object Main extends App {",
-      "  println(\"Hello World! Welcome to BoilerKit\")",
+      "    println(\"Hello World! Welcome to BoilerKit\")",
       "}"
     ],
     "description": "BoilerKit: Scala Boilerplate"
@@ -223,7 +220,7 @@
     "prefix": "rboiler",
     "body": [
       "main <- function() {",
-      "  cat(\"Hello World! Welcome to BoilerKit\\n\")",
+      "    cat(\"Hello World! Welcome to BoilerKit\\n\")",
       "}",
       "",
       "main()"
@@ -306,11 +303,11 @@
     "prefix": "jsonboiler",
     "body": [
       "{",
-      "  \"message\": \"Hello World! Welcome to BoilerKit\",",
-      "  \"version\": \"1.0.0\",",
-      "  \"data\": {",
-      "    \"key\": \"value\"",
-      "  }",
+      "    \"message\": \"Hello World! Welcome to BoilerKit\",",
+      "    \"version\": \"1.0.0\",",
+      "    \"data\": {",
+      "        \"key\": \"value\"",
+      "    }",
       "}"
     ],
     "description": "BoilerKit: JSON Boilerplate"
@@ -343,33 +340,33 @@
     "body": [
       "import React from 'react';",
       "",
-      "const ${1:ComponentName} = () => {",
-      "  return (",
-      "    <div>",
-      "      <h1>Hello World! Welcome to BoilerKit</h1>",
-      "    </div>",
-      "  );",
-      "};",
+      "function ${1:ComponentName}(){",
+      "    return (",
+      "        <>",
+      "            <div>",
+      "                <h1>Hello World! Welcome to BoilerKit</h1>",
+      "            </div>",
+      "        </>",
+      "    );",
+      "}",
       "",
       "export default ${1:ComponentName};"
     ],
     "description": "BoilerKit: React JSX Functional Component"
   },
   "Next.js Page Component": {
-    "prefix": "nextpjsboiler",
+    "prefix": "nextjsboiler",
     "body": [
-      "const ${1:ComponentName} = () => {",
-      "  return (",
-      "    <>",
-      "      <div>",
-      "        <h1>Hello World! Welcome to BoilerKit</h1>",
-      "      </div>",
-      "    </>",
-      "  );",
-      "};",
-      "",
-      "export default ${1:ComponentName};"
+      "export default function ${1:ComponentName}(){",
+      "    return (",
+      "        <>",
+      "            <div>",
+      "                <h1>Hello World! Welcome to BoilerKit</h1>",
+      "            </div>",
+      "        </>",
+      "    );",
+      "}"
     ],
     "description": "BoilerKit: Next.js Page Component"
-  },
+  }
 }
