@@ -1,0 +1,160 @@
+{
+  "name": "BoilerKit",
+  "displayName": "BoilerKit",
+  "publisher": "megh",
+  "description": "Insert boilerplate code for any language instantly.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.101.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:boilerkit.insertBoilerplate"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "cpp",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      },
+      {
+        "language": "python",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      },
+      {
+        "language": "java",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      },
+      {
+        "language": "c",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      },
+      {
+        "language": "go",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      },
+      {
+        "language": "rust",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      },
+      {
+        "language": "ruby",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      },
+      {
+        "language": "swift",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      },
+      {
+        "language": "kotlin",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      },
+      {
+        "language": "csharp",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      },
+      {
+        "language": "scala",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      },
+      {
+        "language": "r",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      },
+      {
+        "language": "matlab",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      },
+      {
+        "language": "shellscript",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      },
+      {
+        "language": "powershell",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      },
+      {
+        "language": "perl",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      },
+      {
+        "language": "sql",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      },
+      {
+        "language": "json",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      },
+      {
+        "language": "xml",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      },
+      {
+        "language": "yaml",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      }
+    ]
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/megh-bari/boilerkit"
+},
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.101.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@typescript-eslint/eslint-plugin": "^8.31.1",
+    "@typescript-eslint/parser": "^8.31.1",
+    "eslint": "^9.25.1",
+    "typescript": "^5.8.3",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}

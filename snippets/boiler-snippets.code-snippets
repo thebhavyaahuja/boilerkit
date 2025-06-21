@@ -1,0 +1,375 @@
+{
+  "C++ Boilerplate": {
+    "prefix": "cppboiler",
+    "body": [
+      "#include <bits/stdc++.h>",
+      "using namespace std;",
+      "",
+      "int main() {",
+      "    cout << \"Hello World! Welcome to BoilerKit\" << endl;",
+      "    return 0;",
+      "}"
+    ],
+    "description": "BoilerKit: C++ Boilerplate with iostream"
+  },
+  "Python Boilerplate": {
+    "prefix": "pyboiler",
+    "body": [
+      "#!/usr/bin/env python3",
+      "",
+      "def main():",
+      "    print(\"Hello World! Welcome to BoilerKit\")",
+      "",
+      "if __name__ == \"__main__\":",
+      "    main()"
+    ],
+    "description": "BoilerKit: Python Boilerplate"
+  },
+  "JavaScript Boilerplate": {
+    "prefix": "jsboiler",
+    "body": [
+      "function main() {",
+      "    console.log(\"Hello World! Welcome to BoilerKit\");",
+      "}",
+      "",
+      "main();"
+    ],
+    "description": "BoilerKit: JavaScript Boilerplate"
+  },
+  "Java Boilerplate": {
+    "prefix": "javaboiler",
+    "body": [
+      "public class Main {",
+      "    public static void main(String[] args) {",
+      "        System.out.println(\"Hello World! Welcome to BoilerKit\");",
+      "    }",
+      "}"
+    ],
+    "description": "BoilerKit: Java Boilerplate"
+  },
+  "C Boilerplate": {
+    "prefix": "cboiler",
+    "body": [
+      "#include <stdio.h>",
+      "#include <stdlib.h>",
+      "",
+      "int main() {",
+      "    printf(\"Hello World! Welcome to BoilerKit\\n\");",
+      "    return 0;",
+      "}"
+    ],
+    "description": "BoilerKit: C Boilerplate"
+  },
+  "Go Boilerplate": {
+    "prefix": "goboiler",
+    "body": [
+      "package main",
+      "",
+      "import \"fmt\"",
+      "",
+      "func main() {",
+      "    fmt.Println(\"Hello World! Welcome to BoilerKit\")",
+      "}"
+    ],
+    "description": "BoilerKit: Go Boilerplate"
+  },
+  "HTML Boilerplate": {
+    "prefix": "htmlboiler",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html lang=\"en\">",
+      "<head>",
+      "    <meta charset=\"UTF-8\">",
+      "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+      "    <meta name=\"description\" content=\"Hello World! Welcome to BoilerKit\">",
+      "    <title>BoilerKit>",
+      "</head>",
+      "<body>",
+      "    <h1>Hello World! Welcome to BoilerKit</h1>",
+      "</body>",
+      "</html>"
+    ],
+    "description": "BoilerKit: HTML5 Boilerplate"
+  },
+  "CSS Boilerplate": {
+    "prefix": "cssboiler",
+    "body": [
+      "/* Hello World! Welcome to BoilerKit */",
+      "* {",
+      "    margin: 0;",
+      "    padding: 0;",
+      "    box-sizing: border-box;",
+      "}",
+      "",
+      "html, body {",
+      "    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;",
+      "    line-height: 1.6;",
+      "    color: #333;",
+      "    background-color: #fff;",
+      "}",
+      "",
+      "h1::before {",
+      "    content: \"Hello World! Welcome to BoilerKit\";",
+      "}"
+    ],
+    "description": "BoilerKit: CSS Reset Boilerplate"
+  },
+  "TypeScript Boilerplate": {
+    "prefix": "tsboiler",
+    "body": [
+      "function main(): void {",
+      "    console.log(\"Hello World! Welcome to BoilerKit\");",
+      "}",
+      "",
+      "main();"
+    ],
+    "description": "BoilerKit: TypeScript Boilerplate"
+  },
+  "Rust Boilerplate": {
+    "prefix": "rustboiler",
+    "body": [
+      "fn main() {",
+      "    println!(\"Hello World! Welcome to BoilerKit\");",
+      "}"
+    ],
+    "description": "BoilerKit: Rust Boilerplate"
+  },
+  "PHP Boilerplate": {
+    "prefix": "phpboiler",
+    "body": [
+      "<?php",
+      "",
+      "function main() {",
+      "    echo \"Hello World! Welcome to BoilerKit\\n\";",
+      "}",
+      "",
+      "main();",
+      "?>"
+    ],
+    "description": "BoilerKit: PHP Boilerplate"
+  },
+  "Ruby Boilerplate": {
+    "prefix": "rubyboiler",
+    "body": [
+      "#!/usr/bin/env ruby",
+      "",
+      "def main",
+      "  puts \"Hello World! Welcome to BoilerKit\"",
+      "end",
+      "",
+      "main if __FILE__ == $0"
+    ],
+    "description": "BoilerKit: Ruby Boilerplate"
+  },
+  "Swift Boilerplate": {
+    "prefix": "swiftboiler",
+    "body": [
+      "import Foundation",
+      "",
+      "func main() {",
+      "    print(\"Hello World! Welcome to BoilerKit\")",
+      "}",
+      "",
+      "main()"
+    ],
+    "description": "BoilerKit: Swift Boilerplate"
+  },
+  "Kotlin Boilerplate": {
+    "prefix": "kotlinboiler",
+    "body": [
+      "fun main() {",
+      "    println(\"Hello World! Welcome to BoilerKit\")",
+      "}"
+    ],
+    "description": "BoilerKit: Kotlin Boilerplate"
+  },
+  "C# Boilerplate": {
+    "prefix": "csboiler",
+    "body": [
+      "using System;",
+      "",
+      "namespace BoilerKit",
+      "{",
+      "    class Program",
+      "    {",
+      "        static void Main(string[] args)",
+      "        {",
+      "            Console.WriteLine(\"Hello World! Welcome to BoilerKit\");",
+      "        }",
+      "    }",
+      "}"
+    ],
+    "description": "BoilerKit: C# Boilerplate"
+  },
+  "Dart Boilerplate": {
+    "prefix": "dartboiler",
+    "body": [
+      "void main() {",
+      "  print('Hello World! Welcome to BoilerKit');",
+      "}"
+    ],
+    "description": "BoilerKit: Dart Boilerplate"
+  },
+  "Scala Boilerplate": {
+    "prefix": "scalaboiler",
+    "body": [
+      "object Main extends App {",
+      "  println(\"Hello World! Welcome to BoilerKit\")",
+      "}"
+    ],
+    "description": "BoilerKit: Scala Boilerplate"
+  },
+  "R Boilerplate": {
+    "prefix": "rboiler",
+    "body": [
+      "main <- function() {",
+      "  cat(\"Hello World! Welcome to BoilerKit\\n\")",
+      "}",
+      "",
+      "main()"
+    ],
+    "description": "BoilerKit: R Boilerplate"
+  },
+  "MATLAB Boilerplate": {
+    "prefix": "matlabboiler",
+    "body": [
+      "function main()",
+      "    fprintf('Hello World! Welcome to BoilerKit\\n');",
+      "end",
+      "",
+      "main();"
+    ],
+    "description": "BoilerKit: MATLAB Boilerplate"
+  },
+  "Shell Script Boilerplate": {
+    "prefix": "shboiler",
+    "body": [
+      "#!/bin/bash",
+      "",
+      "main() {",
+      "    echo \"Hello World! Welcome to BoilerKit\"",
+      "}",
+      "",
+      "main \"$@\""
+    ],
+    "description": "BoilerKit: Shell Script Boilerplate"
+  },
+  "PowerShell Boilerplate": {
+    "prefix": "psboiler",
+    "body": [
+      "function Main {",
+      "    Write-Host \"Hello World! Welcome to BoilerKit\"",
+      "}",
+      "",
+      "Main"
+    ],
+    "description": "BoilerKit: PowerShell Boilerplate"
+  },
+  "Perl Boilerplate": {
+    "prefix": "perlboiler",
+    "body": [
+      "#!/usr/bin/perl",
+      "use strict;",
+      "use warnings;",
+      "",
+      "sub main {",
+      "    print \"Hello World! Welcome to BoilerKit\\n\";",
+      "}",
+      "",
+      "main();"
+    ],
+    "description": "BoilerKit: Perl Boilerplate"
+  },
+  "Lua Boilerplate": {
+    "prefix": "luaboiler",
+    "body": [
+      "function main()",
+      "    print(\"Hello World! Welcome to BoilerKit\")",
+      "end",
+      "",
+      "main()"
+    ],
+    "description": "BoilerKit: Lua Boilerplate"
+  },
+  "SQL Boilerplate": {
+    "prefix": "sqlboiler",
+    "body": [
+      "-- Database connection required",
+      "",
+      "USE your_database_name;",
+      "",
+      "SELECT 'Hello World! Welcome to BoilerKit' AS message;"
+    ],
+    "description": "BoilerKit: SQL Boilerplate"
+  },
+  "JSON Boilerplate": {
+    "prefix": "jsonboiler",
+    "body": [
+      "{",
+      "  \"message\": \"Hello World! Welcome to BoilerKit\",",
+      "  \"version\": \"1.0.0\",",
+      "  \"data\": {",
+      "    \"key\": \"value\"",
+      "  }",
+      "}"
+    ],
+    "description": "BoilerKit: JSON Boilerplate"
+  },
+  "XML Boilerplate": {
+    "prefix": "xmlboiler",
+    "body": [
+      "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+      "<root>",
+      "    <message>Hello World! Welcome to BoilerKit</message>",
+      "    <data>",
+      "    </data>",
+      "</root>"
+    ],
+    "description": "BoilerKit: XML Boilerplate"
+  },
+  "YAML Boilerplate": {
+    "prefix": "yamlboiler",
+    "body": [
+      "message: \"Hello World! Welcome to BoilerKit\"",
+      "version: \"1.0.0\"",
+      "",
+      "config:",
+      "  key: value"
+    ],
+    "description": "BoilerKit: YAML Boilerplate"
+  },
+  "React JSX Component": {
+    "prefix": "reactjsboiler",
+    "body": [
+      "import React from 'react';",
+      "",
+      "const ${1:ComponentName} = () => {",
+      "  return (",
+      "    <div>",
+      "      <h1>Hello World! Welcome to BoilerKit</h1>",
+      "    </div>",
+      "  );",
+      "};",
+      "",
+      "export default ${1:ComponentName};"
+    ],
+    "description": "BoilerKit: React JSX Functional Component"
+  },
+  "Next.js Page Component": {
+    "prefix": "nextpjsboiler",
+    "body": [
+      "const ${1:ComponentName} = () => {",
+      "  return (",
+      "    <>",
+      "      <div>",
+      "        <h1>Hello World! Welcome to BoilerKit</h1>",
+      "      </div>",
+      "    </>",
+      "  );",
+      "};",
+      "",
+      "export default ${1:ComponentName};"
+    ],
+    "description": "BoilerKit: Next.js Page Component"
+  },
+}
