@@ -98,7 +98,7 @@ Want to contribute your favorite language boilerplate?
 
 #### Via Command Line
 ```bash
-code --install-extension megh.BoilerKit
+code --install-extension megh.boilerkit@0.0.3
 ```
 
 
