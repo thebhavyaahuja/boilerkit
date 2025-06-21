@@ -2,8 +2,8 @@
   "name": "BoilerKit",
   "displayName": "BoilerKit",
   "publisher": "megh",
-  "description": "Insert boilerplate code for any language instantly.",
-  "version": "0.0.3",
+  "description": "Insert boilerplate code for any language instantly using simple snippet triggers.",
+  "version": "0.0.5",
   "engines": {
     "vscode": "^1.101.0"
   },
