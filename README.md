@@ -54,9 +54,8 @@ Just type a trigger like `cppboiler`, `pyboiler`, `jsxboiler` and hit `Enter`.
 | ----------- | --------------- | ------------ | --------------- |
 | React (JSX) | `reactjsboiler` | Next.js Page | `nextpjsboiler` |
 
-> 🔍 Want more languages or frameworks? [Contribute below](#Contributing)
+> Want more languages or frameworks? [Contribute below](#Contributing)
 
----
 
 ### Contributing
 
@@ -64,8 +63,9 @@ Want to contribute your favorite language boilerplate?
 
 #### Add a New Snippet
 
-1. Open `snippets/boiler-snippets.code-snippets`
-2. Add a block in the following format:
+1. **Fork** the repository
+2. Open `snippets/boiler-snippets.code-snippets`
+3. Add a block in the following format:
 
 ```json
 "<Language> Boilerplate": {
@@ -77,28 +77,29 @@ Want to contribute your favorite language boilerplate?
 }
 ```
 
-3. Add the language to the `contributes.snippets` array in `package.json`
+4. Add the language to the `contributes.snippets` array in `package.json`
 
 ```json
 {
-  "language": "cpp",
+  "language": "yourlanguage",
   "path": "./snippets/boiler-snippets.code-snippets"
 }
 ```
 
-4. Open a PR and help others start faster 🚀
+5. Open a PR and help others start faster 🚀
 
 ### Installation
 
-Search for **BoilerKit** on the VS Code Marketplace or install via CLI:
+#### Via VS Code Marketplace
+1. Open VS Code
+2. Go to Extensions (`Ctrl+Shift+X`)
+3. Search for **BoilerKit**
+4. Click "Install"
 
+#### Via Command Line
 ```bash
 code --install-extension megh.BoilerKit
 ```
 
----
 
-### 🧩 Author
-Made with ❤️ by [@meghb](https://github.com/meghb)
-
----
+> *Save time. Write code. Ship faster.*
