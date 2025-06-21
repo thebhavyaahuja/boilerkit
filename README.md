@@ -18,25 +18,43 @@ Just type a trigger like `cppboiler`, `pyboiler`, `jsxboiler` and hit `Enter`.
 
 ### Supported Languages (Examples)
 
-| Language     | Trigger         | Language    | Trigger         |
-| ------------ | --------------- | ----------- | --------------- |
-| C++          | `cppboiler`     | Swift       | `swiftboiler`   |
-| Python       | `pyboiler`      | Kotlin      | `kotlinboiler`  |
-| JavaScript   | `jsboiler`      | C#          | `csboiler`      |
-| TypeScript   | `tsboiler`      | Dart        | `dartboiler`    |
-| Java         | `javaboiler`    | Scala       | `scalaboiler`   |
-| C            | `cboiler`       | R           | `rboiler`       |
-| Go           | `goboiler`      | MATLAB      | `matlabboiler`  |
-| HTML         | `htmlboiler`    | Shell       | `shboiler`      |
-| CSS          | `cssboiler`     | PowerShell  | `psboiler`      |
-| Rust         | `rustboiler`    | Perl        | `perlboiler`    |
-| PHP          | `phpboiler`     | Lua         | `luaboiler`     |
-| Ruby         | `rubyboiler`    | SQL         | `sqlboiler`     |
-| JSON         | `jsonboiler`    | YAML        | `yamlboiler`    |
-| XML          | `xmlboiler`     | React (JSX) | `reactjsboiler` |
-| Next.js Page | `nextpjsboiler` |             |                 |
 
-> 🔍 Want more languages? [Contribute below](https://github.com/megh-bari/boilerkit#Contributing)
+#### Programming Languages
+
+| Language   | Trigger      | Language | Trigger        |
+| ---------- | ------------ | -------- | -------------- |
+| C++        | `cppboiler`  | Swift    | `swiftboiler`  |
+| Python     | `pyboiler`   | Kotlin   | `kotlinboiler` |
+| JavaScript | `jsboiler`   | C#       | `csboiler`     |
+| TypeScript | `tsboiler`   | Dart     | `dartboiler`   |
+| Java       | `javaboiler` | Scala    | `scalaboiler`  |
+| C          | `cboiler`    | R        | `rboiler`      |
+| Go         | `goboiler`   | MATLAB   | `matlabboiler` |
+| Rust       | `rustboiler` | Perl     | `perlboiler`   |
+| PHP        | `phpboiler`  | Lua      | `luaboiler`    |
+| Ruby       | `rubyboiler` | SQL      | `sqlboiler`    |
+
+#### Markup & Config Languages
+
+| Language | Trigger      | Language | Trigger      |
+| -------- | ------------ | -------- | ------------ |
+| HTML     | `htmlboiler` | XML      | `xmlboiler`  |
+| CSS      | `cssboiler`  | YAML     | `yamlboiler` |
+| JSON     | `jsonboiler` |          |              |
+
+#### Scripting
+
+| Language     | Trigger    | Language   | Trigger    |
+| ------------ | ---------- | ---------- | ---------- |
+| Shell Script | `shboiler` | PowerShell | `psboiler` |
+
+#### Frameworks
+
+| Framework   | Trigger         | Framework    | Trigger         |
+| ----------- | --------------- | ------------ | --------------- |
+| React (JSX) | `reactjsboiler` | Next.js Page | `nextpjsboiler` |
+
+> 🔍 Want more languages or frameworks? [Contribute below](#Contributing)
 
 ---
 
