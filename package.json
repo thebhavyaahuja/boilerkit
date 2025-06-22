@@ -32,6 +32,10 @@
         "path": "./snippets/boiler-snippets.code-snippets"
       },
       {
+        "language": "cp",
+        "path": "./snippets/boiler-snippets.code-snippets"
+      },
+      {
         "language": "python",
         "path": "./snippets/boiler-snippets.code-snippets"
       },
